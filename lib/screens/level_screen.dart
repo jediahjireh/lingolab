@@ -486,23 +486,45 @@ class _LevelScreenState extends State<LevelScreen> {
              */
                 }
               },
+              // navigation tabs
               items: [
+                // home tab
                 BottomNavigationBarItem(
-                  icon: Image.asset(
-                    'assets/images/home.png',
-                    width: 24,
-                    height: 24,
-                  ),
+                  icon: _currentIndex == 0
+                      ?
+                        // selected state icon
+                        Image.asset(
+                          'assets/images/home-selected.png',
+                          width: 24,
+                          height: 24,
+                        )
+                      : Image.asset(
+                          'assets/images/home.png',
+                          width: 24,
+                          height: 24,
+                        ),
                   label: "Home",
                 ),
+
+                // leaderboard tab
                 BottomNavigationBarItem(
-                  icon: Image.asset(
-                    'assets/images/rank.png',
-                    width: 24,
-                    height: 24,
-                  ),
+                  icon: _currentIndex == 1
+                      ?
+                        // selected state icon
+                        Image.asset(
+                          'assets/images/rank-selected.png',
+                          width: 24,
+                          height: 24,
+                        )
+                      : Image.asset(
+                          'assets/images/rank.png',
+                          width: 24,
+                          height: 24,
+                        ),
                   label: "Leaderboard",
                 ),
+
+                // profile tab
                 BottomNavigationBarItem(
                   icon: Image.asset(
                     'assets/avatars/avatar.png',
