@@ -1,16 +1,16 @@
 # lingolab
 
-A new Flutter project.
+## Firebase Config (Do Not Commit)
 
-## Getting Started
+The following files are excluded from version control for security reasons:
 
-This project is a starting point for a Flutter application.
+- `android/app/google-services.json`
+- `ios/Runner/GoogleService-Info.plist`
+- `macos/Runner/GoogleService-Info.plist`
 
-A few resources to get you started if this is your first Flutter project:
+To run the app, you must provide your own Firebase config files.  
+Ask the maintainer or check the Firebase Console to download these.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Note: Copy `.example` files and rename them before adding real Firebase configs.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**⚠️ Never commit these files. They contain credentials.**

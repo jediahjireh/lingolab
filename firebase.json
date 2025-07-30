@@ -1,0 +1,41 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "lingolab-4e2f4",
+          "appId": "1:115400833864:android:5147e462f1640947edd17d",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "lingolab-4e2f4",
+          "appId": "1:115400833864:ios:ff02a54e924a9655edd17d",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "macos": {
+        "default": {
+          "projectId": "lingolab-4e2f4",
+          "appId": "1:115400833864:ios:ff02a54e924a9655edd17d",
+          "uploadDebugSymbols": false,
+          "fileOutput": "macos/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "lingolab-4e2f4",
+          "configurations": {
+            "android": "1:115400833864:android:5147e462f1640947edd17d",
+            "ios": "1:115400833864:ios:ff02a54e924a9655edd17d",
+            "macos": "1:115400833864:ios:ff02a54e924a9655edd17d",
+            "web": "1:115400833864:web:791755d6313154baedd17d",
+            "windows": "1:115400833864:web:a58a13c64266da63edd17d"
+          }
+        }
+      }
+    }
+  }
+}
