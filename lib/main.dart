@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Select the Correct Image',
+      title: 'LingoLab',
       theme: ThemeData(primarySwatch: Colors.blue, brightness: Brightness.dark),
       home: SplashScreen(),
     );
